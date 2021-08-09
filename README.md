@@ -9,9 +9,5 @@
 钥都无法获得关于s的任何信息，就称该方案是完善的。
 
 
+![Alt text](https://github.com/12345-yjy/shamir-algorithm_with-Large-number-operation/blob/main/ScreenShot.bmp)
 
-Setup:首先构建一个有限域GF(q)上的多项式f(x)=a0 + a1x + ... + at−1xt−1，其中q为素数，秘密
-为a0即f(0)，a0 < q。
-秘密分割:然后在f(x)上均匀随机选取n个不同的点(x1, y1), ..., (xn, yn)并分发给n个人，n < q。
-秘密恢复:通过任意t个点可以恢复出秘密a0，可以通过代入t个点的坐标然后解t元一次方程组来
-算出a0。但也可以通过拉格朗日插值法更快的得出a0，具体公式如下：
