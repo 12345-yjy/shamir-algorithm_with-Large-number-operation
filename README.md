@@ -8,6 +8,7 @@
 恢复出秘密s，这样一种方案被称为(t,n)门限秘密共享方案。如果任意t-1个用户提供他们的子秘
 钥都无法获得关于s的任何信息，就称该方案是完善的。
 
-由于项数较多会生成大数，引用了一个C++开源的高精度浮点数运算库。
+
 ![Alt text](https://github.com/12345-yjy/shamir-algorithm_with-Large-number-operation/blob/main/ScreenShot.bmp)
 
+由于项数较多会生成大数，引用了一个C++开源的高精度浮点数运算库。
